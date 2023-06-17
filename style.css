@@ -1,0 +1,56 @@
+ol, ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* -------CLIENTS------------------------------------------------------------ */
+
+.clients_text {
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    color: #212121;
+}
+
+.clientslist {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.clientslistitem:not(:last-child) {
+    margin-right: 30px;
+}
+
+.clientslistitem {
+    box-sizing: border-box;
+
+    display: flex;
+    justify-content: center;
+
+    width: 170px;
+    height: 92px;
+
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+}
+
+.clientimg {
+    margin-top: 30px;
+    width: 34px;
+    height: 32px;
+}
+
+.clientlink {
+    color: #2196F3;
+    cursor: pointer;
+}
